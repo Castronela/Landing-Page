@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 15% 20px 15%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topsec {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+}
+
+.heading {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px; 
+
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.botsec {
+    display: flex;
+    margin: 100px auto;
+    gap: 40px;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text * {
+    flex: initial;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -15px;
+}
+
+.content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 8px 15px;
+    border-radius: 7px;
+    text-align: center;
+    width: 100px;
+}
+
+span>a {
+    font-weight: 700;
+}
+
+img {
+    width: 40%;
+    height: 240px;
+    flex: 1.2 1 0;
+    border: 1px solid black;
+}
+
+.info {
+
+}
+
+.quote {
+
+}
+
+.registration {
+
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+}
