@@ -44,7 +44,7 @@ a {
 
 .botsec {
     display: flex;
-    margin: 100px auto;
+    margin: 100px 0;
     gap: 40px;
 }
 
