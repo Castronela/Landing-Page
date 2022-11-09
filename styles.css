@@ -209,5 +209,8 @@ span>a {
 
 .footer {
     background-color: #1F2937;
-    display: flex;
+    color: white;
+    font-size: 18px;
+    padding: 40px 0;
+    text-align: center;
 }
