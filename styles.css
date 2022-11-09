@@ -6,6 +6,8 @@ body {
     font-family: "Roboto";
 }
 
+/* Header section */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -98,6 +100,8 @@ span>a {
     border: 1px solid black;
 }
 
+/* Random info section */
+
 .info {
     padding: 50px 18% 100px;
     display: flex;
@@ -138,8 +142,25 @@ span>a {
     padding: 5px;
 }
 
-.quote {
+/*Quote section*/
 
+.quote_section {
+    background-color: #E5E7EB;
+    padding: 130px 26%;
+}
+
+.quote {  
+    color: #585d64;  
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    color: rgba(0, 0, 0, 0.761);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .registration {
